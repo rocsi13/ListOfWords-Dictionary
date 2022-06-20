@@ -6,13 +6,13 @@
 	<title>Dictionary</title>
 	<style type="text/css">
 		.button {
-				height: 30px;
-				width: 30px;
-				background: #517A5A;
-				border: none;
-				border-radius: 12px;
-				font-size: 10px;
-				font-weight: 200px ;
+			height: 30px;
+			width: 30px;
+			background: #517A5A;
+			border: none;
+			border-radius: 12px;
+			font-size: 10px;
+			font-weight: 200px ;
 		}
 		.button:active {
 			background: #65C57A;
@@ -21,7 +21,7 @@
 			display: inline-flex;
 			align-items: center;
 			color: #fff;
-    }
+		}
 	</style>
 </head>
 <body style="background: #5FD685;">
@@ -34,19 +34,17 @@
         <form>
 	        <div class="mb-3">
 	        	<form >
-					<div class="add-word">
+				<div class="add-word">
 	        			<input type="text" id="newWord" placeholder="Add your word" aria-controls= "top-search" data-s-popover-placement="bottom-start" maxlength="45"> 
 	    			</div>
-				</form>
+			</form>
 	        	<button type= "button" class="button" onclick="addWord();">
-					<span class= "button__text"> 
-						Add word
-					</span>
-				</button>
-				<div id="arrayOutput"></div>
+				<span class= "button__text"> 
+					Add word
+				</span>
+			</button>
 	        </div>
     	</form>
-    </div>
     <br>
     <br>
     <br>
@@ -57,16 +55,16 @@
         <form>
         	<div class="mb-3">
         		<form >
-					<div class="add-word">
+				<div class="add-word">
 	        			<input type="text" id="wordSearched" placeholder="Your word here" aria-controls= "top-search" data-s-popover-placement="bottom-start" maxlength="45"> 
 	    			</div>
-				</form>
-			</div>	
+			</form>
+		</div>	
         	<button type= "button" class="button" onclick="findWord();">
-				<span class= "button__text"> 
-					Find word
-				</span>
-			</button>
+			<span class= "button__text"> 
+				Find word
+			</span>
+		</button>
         </form>
     </div>
 </body>
